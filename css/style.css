@@ -98,6 +98,25 @@ p {
     margin-bottom: 50px;
 }
 
+.recherche {
+    border: 1px #F2F2F2 solid;
+    border-radius: 15px;
+    width: 377px;
+    height: 49px;
+    margin: 0 0 20px 0;
+    display: flex;
+}
+
+.button-style {
+    background-color: #0065FC;
+    padding: 15px 16px;
+    font-size: 1rem;
+    text-align: center;
+    color: white ;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
 .card {
     background-color: white;
     border-radius: 20px;
