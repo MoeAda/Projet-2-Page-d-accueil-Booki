@@ -8,6 +8,7 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 img {
@@ -32,13 +33,13 @@ img {
 nav>div>a {
     text-decoration: none;
     color: black;
-    border-top: 20px transparent;  
+    border-top: 20px transparent;
+    padding-top: 20px; 
 }
 
 a:hover {
     border-top: 2px #0065FC solid;
     color: #0065FC;
-    padding-top: 20px;
 }
 
 footer {
@@ -88,32 +89,99 @@ body {
 
 h1 {
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 8px;
 }
 
 p {
-    font-size: 12px;
-    margin-bottom: 50px;
+    font-size: 16px;
 }
 
 .recherche {
-    border: 1px #F2F2F2 solid;
-    border-radius: 15px;
-    width: 377px;
-    height: 49px;
+    height: 50px;
     margin: 0 0 20px 0;
     display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
-.button-style {
+.fa-location-dot{
+    background-color: #F2F2F2;
+    align-items: center;
+    justify-content: center; 
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+    padding: 15px;
+    
+}
+
+input {
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+    border-right: none;
+    border-left: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 13px;
+}
+
+.styled-recherche {
     background-color: #0065FC;
     padding: 15px 16px;
-    font-size: 1rem;
+    font-size: 16px;
+    font-weight: 700;
     text-align: center;
     color: white ;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.filtres {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.button-style {
+    border: 2px #F2F2F2 solid;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 4px 20px;
+}
+
+.button-style:hover {
+    background-color: #DEEBFF;
+    ;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.fa-info {
+    max-width: 24px;
+    max-height: 24px;
+    border: 1px #F2F2F2 solid;
+    border-radius: 30px;
+    padding: 10px;
 }
 
 .card {

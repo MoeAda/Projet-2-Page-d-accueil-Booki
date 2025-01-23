@@ -30,13 +30,24 @@
         <main>
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre-ville ou en pleine nature.</p>
-            <div>
-                <form method="get" action="">
-                    <div class="recherche">
+            <div class="recherche">
+                <form method="get" action="#">
+                    <i class="fa-solid fa-location-dot" style="color: #000000;"></i>
                         <input type="text" name="ville" id="ville" placeholder="Marseille">
-                        <button class="button-style" type="button">Rechercher</button>
-                    </div>
+                        <button class="styled-recherche" type="button">Rechercher</button>
                 </form>
+            </div>
+            <div class="filtres">
+                <h3>Filtres</h3>
+                <button class="button-style" type="button"><i class="fa-solid fa-money-bill-wave" style="color: #0065fc;"></i>Economique</button>
+                <button class="button-style" type="button"><i class="fa-solid fa-person" style="color: #0065fc;"></i>Familiale</button>
+                <button class="button-style" type="button"><i class="fa-solid fa-heart" style="color: #0065fc;"></i>Romantique</button>
+                <button class="button-style" type="button"><i class="fa-solid fa-fire" style="color: #0065fc;"></i>Nos pépites</button>
+                </ul>
+            </div>
+            <div class="info">
+                <i class="fa-solid fa-info fa-2xs" style="color: #0065fc;"></i>
+                <p>Plus de 500 logements sont disponibles dans cette ville.</p>
             </div>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
