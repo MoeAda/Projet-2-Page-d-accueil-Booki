@@ -243,12 +243,6 @@ h3 {
     box-sizing: border-box;
 }
 
-.hebergements-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .hebergements-cards {
     display: flex;
     flex-direction: row;
@@ -481,13 +475,37 @@ h3 {
         justify-content: center;
     }
 
+    .header-menu {
+        width: 100%;
+        gap: 0;
+        padding-bottom: 10px;
+    }
+
     nav>div>a {
         border-bottom: 2px #F2F2F2 solid;
         padding-bottom: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav>div>a:hover {
+        border-bottom: 2px #0065FC solid;
+        border-top: none;
     }
 
     h1 {
         line-height: 25px;
+        margin: 0 20px;
+    }
+
+    p {
+        margin: 0 20px;
+        line-height: 2;
+    }
+
+    .recherche {
+        margin: 20px;
     }
 
     .styled-recherche {
@@ -506,44 +524,63 @@ h3 {
         display: flex;
     }
     
+    .filtres {
+        margin: 20px;
+    }
+
     .button-style {
         width: 45%;
+    }
+
+    .info {
+        margin: 20px;
+    }
+
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+        gap: 0;
     }
 
     .populaires {
         background-color: var(--main-bg-color);
         border-radius: 0;
-        box-sizing: content-box;
-        margin: 0 auto;
+        padding: 20px;
+        margin-top: 10px;
     }
 
     .populaires-cards {
        flex-direction: column;
     }
 
-    .hebergements-and-populaires {
-        flex-direction: column-reverse;
+    .populaires-cards .card {
+        margin-top: 10px;
     }
 
     .hebergements {
         background-color: white;
-    }
-
-    .hebergements-title i {
-        display: none;
+        padding: 20px
     }
 
     .hebergements-cards {
         display: flex;
         flex-direction: column;
-        padding-bottom: 15px;
+        
+    }
+
+    .hebergements-cards .card {
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .activites {
+        margin-top: 30px;
     }
 
     .activites-cards {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 100%;
+        gap: 15px;
 }
 
     .activites-cards img {
@@ -553,8 +590,7 @@ h3 {
     footer {
         display: flex;
         flex-direction: column;
-        padding: 30px;
-        width: 100%;
+        padding: 10px;
     }
 
 }
