@@ -513,6 +513,7 @@ h3 {
     }
 
     .styled-glass {
+        display: flex;
         background-color: #0065FC;
         padding: 15px 16px;
         justify-content: center;
